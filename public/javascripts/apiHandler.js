@@ -23,7 +23,7 @@ export class APIHandler {
       body: JSON.stringify(data)
     }
 
-    await fetch(`http://137.184.46.7:3000//api/contacts/${id}`, options)
+    await fetch(`http://137.184.46.7:3000/api/contacts/${id}`, options)
       .then(response => {
         if (response.ok) {
           alert('Contact has been successfuly deleted.');
