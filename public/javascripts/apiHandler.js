@@ -9,7 +9,7 @@ export class APIHandler {
   }
 
   async getContactByID(id) {
-    let response = await fetch(`http://137.184.46.7:3000//api/contacts${id}`);
+    let response = await fetch(`http://137.184.46.7:3000/api/contacts${id}`);
     return await response.json();
   }
 
