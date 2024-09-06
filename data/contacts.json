@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "full_name": "Naveed Fida",
+    "email": "nf@example.com",
+    "phone_number": "12345678901",
+    "tags": "work,friend"
+  },
+  {
+    "id": 2,
+    "full_name": "Victor Reyes",
+    "email": "vpr@example.com",
+    "phone_number": "09876543210",
+    "tags": "work,friend"
+  },
+  {
+    "id": 3,
+    "full_name": "Pete Hanson",
+    "email": "ph@example.com",
+    "phone_number": "54321098761",
+    "tags": null
+  },
+  {
+    "full_name": "John Doe",
+    "phone_number": "112-12312--1241",
+    "email": "john@doe.com",
+    "tags": null,
+    "id": 4
+  },
+  {
+    "full_name": "Dio Brando",
+    "phone_number": "111-222-3333",
+    "email": "dio@me.com",
+    "tags": null,
+    "id": 5
+  },
+  {
+    "full_name": "Big Zadorov",
+    "phone_number": "111-222-4444",
+    "email": "zaddy@me.com",
+    "tags": "Accounting,Engineering,IT Dept",
+    "id": 7
+  },
+  {
+    "full_name": "Nick Perry",
+    "phone_number": "778-241-1681",
+    "email": "nick.perry12@outlook.com",
+    "tags": "Accounting,Engineering",
+    "id": 9
+  },
+  {
+    "full_name": "Big Mike",
+    "phone_number": "111-222-3333",
+    "email": "mike@big.com",
+    "tags": "Human Resources",
+    "id": 10
+  },
+  {
+    "full_name": "Tom Bray",
+    "phone_number": "012-121-1212",
+    "email": "tom@brady.com",
+    "tags": "goat,family,friend",
+    "id": 11
+  }
+]

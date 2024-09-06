@@ -1,0 +1,95 @@
+html {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1#main-header {
+  height: 130px;
+  width: 100%;
+  background-color: rgb(114, 56, 161);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1#main-header p {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+h1#main-header a, p {
+  text-decoration: none;
+  font-weight: 100;
+  color: white;
+  margin: 0;
+}
+
+div#add-and-search {
+  display: block;
+  box-sizing: border-box;
+  width: fit-content;
+  background-color: rgb(212, 212, 212);
+  margin: 20px auto;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+
+div#add-and-search input {
+  font-size: 25px;
+  margin: 10px;
+}
+
+div#add-contact-div, div#edit-contact-div {
+  height: fit-content;
+  transition: height 0.3s ease-out, padding 0.3s ease-out, border-radius 0.3s ease-out;
+  width: 35%;
+  display: block;
+  box-sizing: border-box;
+  background-color: rgb(212, 212, 212);
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+div#add-contact-div form, h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+div#contact-list {
+  width: 35%;
+  margin: 20px auto;
+}
+
+ul#contact-list li {
+  list-style: none;
+}
+
+.contact-card {
+  background-color: rgb(212, 212, 212);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  display: flex;
+  color: black;
+}
+
+div#add-contact-div.hide, div#edit-contact-div.hide {
+  height: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.contact-card button {
+  display: inline-block; /* or display: inline; */
+  margin-right: 5px; /* Adjust as needed */
+}
