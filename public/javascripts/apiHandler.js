@@ -4,12 +4,12 @@ export class APIHandler {
   }
 
   async getContacts() {
-    let response = await fetch('http://www.drumsofliberation.ca/api/contacts');
+    let response = await fetch('https://www.drumsofliberation.ca/api/contacts');
     return await response.json();
   }
 
   async getContactByID(id) {
-    let response = await fetch(`http://www.drumsofliberation.ca/api/contacts${id}`);
+    let response = await fetch(`https://www.drumsofliberation.ca/api/contacts${id}`);
     return await response.json();
   }
 
@@ -23,7 +23,7 @@ export class APIHandler {
       body: JSON.stringify(data)
     }
 
-    await fetch(`http://www.drumsofliberation.ca/api/contacts/${id}`, options)
+    await fetch(`https://www.drumsofliberation.ca/api/contacts/${id}`, options)
       .then(response => {
         if (response.ok) {
           alert('Contact has been successfuly deleted.');
@@ -64,7 +64,7 @@ export class APIHandler {
       body: JSON.stringify(data)
     }
 
-    await fetch('http://www.drumsofliberation.ca/api/contacts/', options)
+    await fetch('https://www.drumsofliberation.ca/api/contacts/', options)
       .then((response) => {
         if (response.ok) {
           alert('The contact has been successfully added.');
@@ -85,7 +85,7 @@ export class APIHandler {
       body: JSON.stringify(newData)
     }
 
-    await fetch(`http://www.drumsofliberation.ca/api/contacts/${id}`, options)
+    await fetch(`https://www.drumsofliberation.ca/api/contacts/${id}`, options)
       .then((response) => {
         if (response.ok) {
           alert('Contact info has been successfully updated.');
